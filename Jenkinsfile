@@ -1,9 +1,9 @@
 pipeline {
     agent any
-    tools {
+   // tools {
         // This requires Maven to be installed on the Jenkins agent
-        maven 'Maven 3.6.3' // Or whatever version is installed
-    }
+       // maven 'Maven 3.6.3' // Or whatever version is installed
+    //}
     environment {
         // Define any environment variables needed
         SPRING_PROFILES_ACTIVE = 'dev' // Specify profile if needed
